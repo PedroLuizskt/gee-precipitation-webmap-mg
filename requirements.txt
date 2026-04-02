@@ -1,0 +1,9 @@
+# Bibliotecas Core
+earthengine-api>=0.1.380
+geemap>=0.30.0
+geopandas>=0.14.0
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Ferramentas para o Notebook (Opcional, mas recomendado)
+jupyter>=1.0.0

@@ -1,0 +1,28 @@
+# ─── Ambientes Virtuais e Python ───
+.env
+.venv
+venv/
+ENV/
+env.bak/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ─── Jupyter Notebooks ───
+.ipynb_checkpoints/
+
+# ─── Arquivos Geoespaciais Pesados (Shapefiles brutos) ───
+# Ignoramos shapes inteiros do IBGE para não estourar o limite do GitHub.
+# Se precisar subir uma amostra, crie uma pasta separada ou use GeoJSON.
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.gpkg
+
+# ─── VS Code e IDEs ───
+.vscode/
+.idea/
+*.swp
+.DS_Store
